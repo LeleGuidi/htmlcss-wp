@@ -6,7 +6,7 @@
 }
 
 /* contenitore generico */
-.main-cont {
+.contenitore {
     margin: auto;
     max-width: 1100px;
 }
@@ -16,65 +16,48 @@
 header {
     background-color: #e579e6;
     min-height: 100px;
+    margin-bottom: 30px;
 }
 
-/* parte main  */
-
-.cont {
-margin-top: 30px;
-}
-
-/* div prima section  */
-.cont.yellow {
+/* prima section  */
+.hero {
     min-height: 500px;
-}
-
-.yellow {
     background-color: #e1d67a;
 }
 
-/* div seconda section  */
-.cont.blue {
+/* seconda section  */
+.leadership {
     min-height: 650px;
-    margin-bottom: 10px;
+    margin: 30px 0;
+    background-color: blue;
 }
 
-.blue {
-    background-color: #0186fd;
+/* div floattanti  */
+.cont-top {
+    min-height: 90px;
+    margin-bottom: 30px;
+    background-color: #abcfe7;
 }
 
-.cont-float::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: block;
 }
 
-.cyan {
-    background-color: #abcfe7;
+.col {
+float: left;
+width: 20%;
+min-height: 500px;
+background-color: #abcfe7;
 }
 
-/* div floattanti  */
-
-.cont-top {
-    min-height: 90px;
-    margin-bottom: 30px;
-}
-
-.cont-left, .cont-right {
-    min-height: 500px;
-    float: left;
-    width: 20%;
-}
-
-.cont-middle {
-    float: left;
+.col-middle {
     width: calc(60% - 60px);
-    min-height: 500px;
     margin: auto 30px;
 }
 
 /* footer  */
-
 footer {
     min-height: 45px;
     background-color: #8801fe;
