@@ -80,6 +80,7 @@ prima section
     min-height: 450px;
     padding: 290px 500px 0px 40px;
     color: white;
+    box-shadow: 0 0 0 300px  rgba(0,0,0,.2) inset;
 }
 
 /* 
@@ -90,17 +91,17 @@ float: left;
 width: 20%;
 }
 
-/* .cont-img {
+.cont-img {
     background-color: black;
     margin-bottom: 10px;
     height: 190px;
-} */
+}
 
 .img-col {
     width: 100%;
     height: 190px;
     object-fit: cover;
-    /* opacity: 0.8; */
+    opacity: 0.8;
 }
 
 .col-middle {
